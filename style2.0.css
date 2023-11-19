@@ -1,0 +1,329 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1500' height='4000' preserveAspectRatio='none' viewBox='0 0 1500 4000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1003%26quot%3b)' fill='none'%3e%3crect width='1500' height='4000' x='0' y='0' fill='rgba(255%2c 202%2c 212%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c1203.499C252.668%2c1222.343%2c542.924%2c1311.645%2c743.23%2c1156.488C944.348%2c1000.702%2c878.719%2c680.842%2c977.432%2c446.378C1071.985%2c221.797%2c1306.719%2c55.397%2c1309.393%2c-188.262C1312.165%2c-440.855%2c1178.858%2c-689.644%2c991.759%2c-859.364C812.832%2c-1021.671%2c556.848%2c-1044.021%2c319.056%2c-1086.606C104.559%2c-1125.02%2c-119.264%2c-1175.973%2c-321.383%2c-1094.531C-516.392%2c-1015.953%2c-609.521%2c-806.024%2c-754.693%2c-653.945C-908.93%2c-492.37%2c-1158.174%2c-391.89%2c-1201.324%2c-172.724C-1244.556%2c46.855%2c-1059.133%2c237.724%2c-970.727%2c443.316C-879.948%2c654.429%2c-856.171%2c909.016%2c-675.244%2c1050.701C-489.798%2c1195.925%2c-234.891%2c1185.981%2c0%2c1203.499' fill='%23ff6f8a'%3e%3c/path%3e%3cpath d='M1500 4911.39C1696.771 4924.251 1894.026 4968.667 2079.51 4901.735 2291.957 4825.073 2497.385 4702.048 2614.804 4509.114 2738.192 4306.371 2762.4629999999997 4058.131 2736.499 3822.218 2709.967 3581.146 2640.781 3331.198 2466.591 3162.445 2297.3379999999997 2998.475 2043.011 2986.4790000000003 1814.48 2928.98 1595.366 2873.85 1364.284 2742.326 1157.348 2833.034 951.06 2923.458 894.944 3183.82 784.84 3380.31 696.811 3537.404 628.852 3694.728 577.735 3867.398 518.024 4069.098 381.94100000000003 4279.569 460.90599999999995 4474.5380000000005 539.845 4669.442 773.363 4747.539 967.211 4829.036 1136.296 4900.122 1316.971 4899.427 1500 4911.39' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1003'%3e%3crect width='1500' height='4000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    
+      overflow: hidden; /* Hide scrollbars */
+  
+
+}
+
+
+
+#Logo {
+    position: fixed;
+    
+    width: 100%;
+    padding: 10px 150px;
+    background-color: #ffe5d9;
+    display: flex !important;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow:  15px 15px 30px #e0b2bb,
+             -15px -15px 30px #ffe2ed;
+    
+    
+}
+
+
+.logo-name {
+    display: flex;
+    text-decoration: none !important;
+    font-family: 'Playpen Sans', cursive;
+    
+} 
+
+
+
+
+.logo-name h2 {
+    margin-top: 10px;
+    color: #9d8189;
+}
+
+.nav-menu {
+    margin-top: 18px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    padding-left: 90px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
+    color: #9d8189;
+    
+}
+
+
+.logo-gif {
+    width: 90px;
+    height: 60px;
+    
+    padding-left:  10px;
+}
+
+#name{
+    position: absolute;
+    top: 250px;
+    padding-left: 130px;
+    
+
+}
+
+.name1 {
+    font-size: 100px;
+    font-family: 'Playpen Sans', cursive;
+    color: #d8e2dc;
+    letter-spacing: 15px;
+    
+    
+
+}
+
+.name2 {
+    font-size: 100px;
+    font-family: 'Playpen Sans', cursive;
+    color: #f4acb7;
+    margin-top: -10%;
+    letter-spacing: 20px;
+    
+}
+
+.fade-in-top{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 190px;
+    right: 210px;
+    border-radius: 58px;
+background: #ffcad4;
+box-shadow:  15px 15px 30px #e0b2bb,
+             -15px -15px 30px #ffe2ed;
+
+}
+
+.name-description {
+    position: absolute;
+    top: 470px;
+    padding-left: 130px;
+    font-family: 'Playpen Sans', cursive;
+    letter-spacing: 5px;
+}
+
+.name-description h4 {
+    color: #9d8189;
+     
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
+
+
+.name-description span {
+    color: #d8e2dc;
+}
+
+.introduction {
+    position: absolute;
+    top: 130dvh;
+    padding-left: 100px;
+    font-family: 'Playpen Sans', cursive;
+
+
+}
+
+.introduction p {
+    padding-right: 80vh;
+    
+    color: #ffb4a2;
+    
+}
+
+.title-intro {
+    color: #f4acb7;
+    position: absolute;
+    bottom: 400px;
+    
+
+
+}
+.descrip {
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.fade-in-top {
+	-webkit-animation: fade-in-top 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-top 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+ @-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+.pogi {
+    border-radius: 36px;
+    background: #ffcad4;
+    box-shadow:  11px 11px 37px #b38d94,
+             -11px -11px 37px #ffffff;
+    width: 60vh;
+    height: 60vh;
+    position: absolute;
+    left: 130vh;
+    
+    bottom: 0vh;
+
+    
+}
+
+.btn {
+    position: absolute;
+
+
+    top: 60vh;
+
+}
+
+
+.button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f4acb7;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #333;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 570px;
+    left: 320px;
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 4px;
+  }
+  
+  .type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #ffe5d9;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button:hover {
+    box-shadow: 1px 1px 200px #f4acb7;
+    color: #9d8189;
+    border: none;
+  }
+  
+  .type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+
+    
+  }
+
+
+  .btn2 {
+    outline: none;
+    color: #DAA06D;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 2px dashed #DAA06D;
+    border-radius: 15px;
+    background-color: #EADDCA;
+    box-shadow: 0 0 0 4px #EADDCA, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    
+    transition: .1s ease-in-out, .4s color;
+
+    position: absolute;
+
+    left: 150vh;
+    top: 55vh;
+  }
+  
+  .btn2:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+   
+  }
+
+
+
+
+#i {
+    position: absolute;
+
+
+    top: 65vh;
+}
+
+.languages {
+  color: #d8e2dc;
+}
+
+
+.gif1 {
+    position:absolute;
+    top: 70vh;
+    left: 110px;
+    width: 200px;
+    height: 150px;
+}
+
